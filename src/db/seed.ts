@@ -12,6 +12,9 @@ await seed(db, schema).refine(f => {
                 name: f.companyName(),
                 description: f.loremIpsum(),
             }
+        },
+        with: {
+            questions: 5
         }
     }
 })
@@ -19,4 +22,5 @@ await seed(db, schema).refine(f => {
 
 await sql.end();
 
+// biome-ignore lint/suspicious/noConsole: <test>
 console.log('Database seeded')
