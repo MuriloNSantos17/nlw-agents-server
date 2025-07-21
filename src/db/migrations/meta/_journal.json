@@ -15,6 +15,13 @@
       "when": 1752532414573,
       "tag": "0001_salty_bulldozer",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1753042715908,
+      "tag": "0002_silly_rattler",
+      "breakpoints": true
     }
   ]
 }
